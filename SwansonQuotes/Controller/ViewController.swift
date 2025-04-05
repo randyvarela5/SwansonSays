@@ -12,10 +12,12 @@ class ViewController: UIViewController {
     let quotesManager = QuotesManager()
     
     @IBOutlet weak var quoteLabel: UILabel!
+    @IBOutlet weak var quoteBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        quoteBtn.layer.cornerRadius = 10.0
     }
     
     @IBAction func quoteBtnPressed(_ sender: Any) {

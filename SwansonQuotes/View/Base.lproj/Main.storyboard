@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,17 +16,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the button to generate a quote from Ron Swanson" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OH0-IY-G0v">
-                                <rect key="frame" x="50" y="114" width="314" height="52.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the button to generate a quote from Ron Swanson" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="OH0-IY-G0v">
+                                <rect key="frame" x="20" y="71" width="374" height="202"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="OMR-jA-H9W"/>
+                                    <constraint firstAttribute="height" constant="202" id="e0r-Q7-uGt"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Ron Swanson" translatesAutoresizingMaskIntoConstraints="NO" id="2Zd-cp-CZQ">
-                                <rect key="frame" x="50" y="246.5" width="314" height="234.5"/>
+                                <rect key="frame" x="43" y="350" width="328" height="196"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="196" id="0mM-JI-tUW"/>
+                                    <constraint firstAttribute="width" constant="328" id="OKe-tu-p1N"/>
+                                </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMR-0s-rjh">
-                                <rect key="frame" x="100" y="609" width="214" height="37"/>
+                                <rect key="frame" x="43" y="688" width="328" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="328" id="dNl-eY-z85"/>
+                                    <constraint firstAttribute="height" constant="75" id="hxD-a6-MId"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Tap for quote">
                                     <backgroundConfiguration key="background">
@@ -42,19 +55,20 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.92128556966781616" green="0.38764925947234818" blue="0.4130972205653623" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Zd-cp-CZQ" secondAttribute="trailing" constant="50" id="3xt-OJ-mD0"/>
-                            <constraint firstItem="OH0-IY-G0v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="6TA-FP-88C"/>
-                            <constraint firstItem="CMR-0s-rjh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="8Go-Y5-IDh"/>
-                            <constraint firstItem="OH0-IY-G0v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Q95-dd-mH5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CMR-0s-rjh" secondAttribute="trailing" constant="100" id="YJ7-o7-q5i"/>
-                            <constraint firstItem="2Zd-cp-CZQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="ihY-Dd-wX3"/>
-                            <constraint firstItem="2Zd-cp-CZQ" firstAttribute="top" secondItem="OH0-IY-G0v" secondAttribute="bottom" constant="80" id="mbG-xG-tXo"/>
-                            <constraint firstItem="CMR-0s-rjh" firstAttribute="top" secondItem="2Zd-cp-CZQ" secondAttribute="bottom" constant="128" id="phh-If-bHE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OH0-IY-G0v" secondAttribute="trailing" constant="50" id="sxE-Hg-PMs"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CMR-0s-rjh" secondAttribute="bottom" constant="216" id="utO-cC-Oxj"/>
+                            <constraint firstItem="OH0-IY-G0v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9ly-nf-hEX"/>
+                            <constraint firstItem="CMR-0s-rjh" firstAttribute="top" secondItem="2Zd-cp-CZQ" secondAttribute="bottom" constant="142" id="IJv-Pt-ys3"/>
+                            <constraint firstItem="2Zd-cp-CZQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="LcW-9T-wmZ"/>
+                            <constraint firstItem="OH0-IY-G0v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="23" id="QiS-pg-g2f"/>
+                            <constraint firstItem="2Zd-cp-CZQ" firstAttribute="top" secondItem="OH0-IY-G0v" secondAttribute="bottom" constant="77" id="RVC-WY-Nye"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CMR-0s-rjh" secondAttribute="bottom" constant="99" id="SQw-rm-rld"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Zd-cp-CZQ" secondAttribute="trailing" constant="43" id="cdX-MG-hpi"/>
+                            <constraint firstItem="CMR-0s-rjh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="k6f-Uf-OLc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CMR-0s-rjh" secondAttribute="trailing" constant="43" id="pIk-CP-4cq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OH0-IY-G0v" secondAttribute="trailing" constant="20" id="wRG-iU-VK6"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="quoteBtn" destination="CMR-0s-rjh" id="F8Y-bl-b6B"/>
                         <outlet property="quoteLabel" destination="OH0-IY-G0v" id="Ltm-vv-VdH"/>
                     </connections>
                 </viewController>
