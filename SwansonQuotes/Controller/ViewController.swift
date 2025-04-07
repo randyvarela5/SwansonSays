@@ -13,11 +13,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var quoteLabel: UILabel!
     @IBOutlet weak var quoteBtn: UIButton!
+    @IBOutlet weak var ronImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        quoteBtn.layer.cornerRadius = 10.0
+        configUI()
     }
     
     @IBAction func quoteBtnPressed(_ sender: Any) {

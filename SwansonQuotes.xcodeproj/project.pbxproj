@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E298FD572DA4346900CBDF0C /* ViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298FD562DA4346900CBDF0C /* ViewConfig.swift */; };
 		E2FCF6632D93363B00443B0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FCF6622D93363B00443B0F /* AppDelegate.swift */; };
 		E2FCF6652D93363B00443B0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FCF6642D93363B00443B0F /* SceneDelegate.swift */; };
 		E2FCF6672D93363B00443B0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FCF6662D93363B00443B0F /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E298FD562DA4346900CBDF0C /* ViewConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfig.swift; sourceTree = "<group>"; };
 		E2FCF65F2D93363B00443B0F /* SwansonQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwansonQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FCF6622D93363B00443B0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2FCF6642D93363B00443B0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				E2FCF6682D93363B00443B0F /* Main.storyboard */,
+				E298FD562DA4346900CBDF0C /* ViewConfig.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				E2FCF66D2D93363B00443B0F /* SwansonQuotes.xcdatamodeld in Sources */,
 				E2FCF6672D93363B00443B0F /* ViewController.swift in Sources */,
 				E2FCF67A2D939D2200443B0F /* QuotesModel.swift in Sources */,
+				E298FD572DA4346900CBDF0C /* ViewConfig.swift in Sources */,
 				E2FCF6632D93363B00443B0F /* AppDelegate.swift in Sources */,
 				E2FCF67F2D93A2A800443B0F /* QuotesManager.swift in Sources */,
 				E2FCF6652D93363B00443B0F /* SceneDelegate.swift in Sources */,
