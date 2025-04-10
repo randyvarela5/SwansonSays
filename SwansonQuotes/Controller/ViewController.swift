@@ -20,10 +20,7 @@ class ViewController: UIViewController {
         configUI()
     }
     
-    @IBAction func quoteBtnPressed(_ sender: Any) {
-        
-        //quoteLabel.text = "I am Ron Swanson, you may know me from the show Parks and Recs"
-        
+    @IBAction func quoteBtnPressed(_ sender: Any) {        
         quotesManager.performRequest(urlString: quotesManager.quotesURL) { [weak self] quote, error in
             DispatchQueue.main.async {
                 if let quote = quote {

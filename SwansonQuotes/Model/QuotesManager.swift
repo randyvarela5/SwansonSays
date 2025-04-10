@@ -39,7 +39,6 @@ struct QuotesManager {
     }
     
     func parseJSON(quotesData: Data) -> QuotesModel? {
-        
         let decoder = JSONDecoder()
         
         do {
