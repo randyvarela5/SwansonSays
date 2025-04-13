@@ -16,71 +16,82 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the button for some wisdom from Ron Swanson" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="OH0-IY-G0v">
-                                <rect key="frame" x="43" y="362" width="328" height="187"/>
-                                <color key="backgroundColor" red="0.95686274770000002" green="0.93333333730000001" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="187" id="CTO-jr-uvv"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="20"/>
-                                <color key="textColor" red="0.1647058874" green="0.1215686351" blue="0.078431375319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Ron Swanson" translatesAutoresizingMaskIntoConstraints="NO" id="2Zd-cp-CZQ">
-                                <rect key="frame" x="109" y="124" width="196" height="196"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="196" id="urX-D1-Mkq"/>
-                                    <constraint firstAttribute="height" constant="196" id="zhm-ZW-7Is"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Phy-KM-afB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RON SWANSON WISDOM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7JC-2g-uzs">
-                                <rect key="frame" x="52" y="48" width="311" height="68"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the button for some wisdom from Ron Swanson" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="OH0-IY-G0v">
+                                <rect key="frame" x="43" y="539" width="328" height="187"/>
+                                <color key="backgroundColor" red="0.95686274509803915" green="0.94117647058823528" blue="0.83137254901960778" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="68" id="WKw-A8-B5c"/>
+                                    <constraint firstAttribute="height" constant="187" id="78G-Ux-hju"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="20"/>
+                                <color key="textColor" red="0.20784313725490194" green="0.16862745098039217" blue="0.11372549019607843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMR-0s-rjh">
-                                <rect key="frame" x="43" y="685" width="328" height="75"/>
+                                <rect key="frame" x="43" y="742" width="328" height="75"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="6pj-WV-sms"/>
+                                    <constraint firstAttribute="height" constant="75" id="YSW-ni-wpP"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Give me wisdom!">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.34117650989999998" green="0.12549020350000001" blue="0.062745101750000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.3686274886" green="0.41176474089999998" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
-                                    <color key="baseForegroundColor" red="0.95686274770000002" green="0.93333333730000001" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="quoteBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4bU-bM-d4v"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RonSwanson-Logo-3x" translatesAutoresizingMaskIntoConstraints="NO" id="PYJ-A0-wgb">
+                                <rect key="frame" x="123" y="48" width="169" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="vPZ-uH-apW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2025. Development by Randy Varela. Design by Ben Peacock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHy-SY-OTn">
+                                <rect key="frame" x="116" y="854" width="183" height="8"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="6"/>
+                                <color key="textColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPJ-Z9-alT">
+                                <rect key="frame" x="175" y="825" width="65" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="4nP-5H-2rX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="17"/>
+                                <color key="textColor" red="0.95686274510000002" green="0.94117647059999998" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.8392156959" green="0.77647060160000003" blue="0.70588237050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="OH0-IY-G0v" firstAttribute="top" secondItem="2Zd-cp-CZQ" secondAttribute="bottom" constant="42" id="Agw-gp-Nqx"/>
-                            <constraint firstItem="2Zd-cp-CZQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B9f-V7-VFq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CMR-0s-rjh" secondAttribute="bottom" constant="102" id="EHZ-p6-KPH"/>
-                            <constraint firstItem="2Zd-cp-CZQ" firstAttribute="top" secondItem="7JC-2g-uzs" secondAttribute="bottom" constant="8" id="FLl-fy-UGT"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7JC-2g-uzs" secondAttribute="trailing" constant="51" id="Nba-rK-ADv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OH0-IY-G0v" secondAttribute="trailing" constant="43" id="PDi-kc-bJ7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CMR-0s-rjh" secondAttribute="trailing" constant="43" id="Z2P-QN-Auz"/>
-                            <constraint firstItem="7JC-2g-uzs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="azC-sh-meT"/>
-                            <constraint firstItem="OH0-IY-G0v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="gfs-t6-vnT"/>
-                            <constraint firstItem="7JC-2g-uzs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="52" id="khC-cn-5xv"/>
-                            <constraint firstItem="CMR-0s-rjh" firstAttribute="top" secondItem="OH0-IY-G0v" secondAttribute="bottom" constant="136" id="lAf-2N-m7W"/>
-                            <constraint firstItem="CMR-0s-rjh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="rKb-lH-dIp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CMR-0s-rjh" secondAttribute="trailing" constant="43" id="48c-cD-4RN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PYJ-A0-wgb" secondAttribute="trailing" constant="122" id="6mZ-8t-drf"/>
+                            <constraint firstItem="OH0-IY-G0v" firstAttribute="top" secondItem="PYJ-A0-wgb" secondAttribute="bottom" constant="405" id="Bar-0J-lEP"/>
+                            <constraint firstItem="Phy-KM-afB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="DAE-Ny-YNe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OH0-IY-G0v" secondAttribute="trailing" constant="43" id="EPK-km-jAu"/>
+                            <constraint firstItem="Phy-KM-afB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="NY4-VX-28R"/>
+                            <constraint firstItem="CMR-0s-rjh" firstAttribute="top" secondItem="OH0-IY-G0v" secondAttribute="bottom" constant="16" id="P5D-oO-UI0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JPJ-Z9-alT" secondAttribute="trailing" constant="174" id="Ru2-cG-w3D"/>
+                            <constraint firstItem="JPJ-Z9-alT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="175" id="V6w-Pb-ngp"/>
+                            <constraint firstItem="OH0-IY-G0v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="VhQ-Q3-GEP"/>
+                            <constraint firstAttribute="bottom" secondItem="Phy-KM-afB" secondAttribute="bottom" id="hHw-g9-ANm"/>
+                            <constraint firstItem="Phy-KM-afB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="j0j-pH-ScA"/>
+                            <constraint firstItem="PYJ-A0-wgb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mT6-0z-mNR"/>
+                            <constraint firstItem="PYJ-A0-wgb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="123" id="nzm-5s-dXr"/>
+                            <constraint firstItem="JPJ-Z9-alT" firstAttribute="top" secondItem="CMR-0s-rjh" secondAttribute="bottom" constant="8" id="swT-WW-MMh"/>
+                            <constraint firstItem="CMR-0s-rjh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="xBm-0b-Auo"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="quoteBtn" destination="CMR-0s-rjh" id="F8Y-bl-b6B"/>
                         <outlet property="quoteLabel" destination="OH0-IY-G0v" id="Ltm-vv-VdH"/>
-                        <outlet property="ronImage" destination="2Zd-cp-CZQ" id="0zc-3n-Qao"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -89,6 +100,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Ron Swanson" width="950" height="534"/>
+        <image name="RonSwanson-Logo-3x" width="420" height="201"/>
+        <image name="bg" width="1362" height="2401"/>
     </resources>
 </document>

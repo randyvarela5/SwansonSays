@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E298FD572DA4346900CBDF0C /* ViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298FD562DA4346900CBDF0C /* ViewConfig.swift */; };
+		E298FD5C2DAB188400CBDF0C /* TitanOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E298FD5B2DAB188400CBDF0C /* TitanOne-Regular.ttf */; };
 		E2FCF6632D93363B00443B0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FCF6622D93363B00443B0F /* AppDelegate.swift */; };
 		E2FCF6652D93363B00443B0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FCF6642D93363B00443B0F /* SceneDelegate.swift */; };
 		E2FCF6672D93363B00443B0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FCF6662D93363B00443B0F /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		E298FD562DA4346900CBDF0C /* ViewConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfig.swift; sourceTree = "<group>"; };
+		E298FD5B2DAB188400CBDF0C /* TitanOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitanOne-Regular.ttf"; sourceTree = "<group>"; };
 		E2FCF65F2D93363B00443B0F /* SwansonQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwansonQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FCF6622D93363B00443B0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2FCF6642D93363B00443B0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				E2FCF6702D93363D00443B0F /* LaunchScreen.storyboard */,
 				E2FCF6732D93363D00443B0F /* Info.plist */,
 				E2FCF66B2D93363B00443B0F /* SwansonQuotes.xcdatamodeld */,
+				E298FD5B2DAB188400CBDF0C /* TitanOne-Regular.ttf */,
 			);
 			path = SwansonQuotes;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2FCF6722D93363D00443B0F /* LaunchScreen.storyboard in Resources */,
+				E298FD5C2DAB188400CBDF0C /* TitanOne-Regular.ttf in Resources */,
 				E2FCF66F2D93363D00443B0F /* Assets.xcassets in Resources */,
 				E2FCF66A2D93363B00443B0F /* Main.storyboard in Resources */,
 			);

@@ -13,14 +13,13 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var quoteLabel: UILabel!
     @IBOutlet weak var quoteBtn: UIButton!
-    @IBOutlet weak var ronImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configUI()
     }
     
-    @IBAction func quoteBtnPressed(_ sender: Any) {        
+    @IBAction func quoteBtnPressed(_ sender: Any) {
         quotesManager.performRequest(urlString: quotesManager.quotesURL) { [weak self] quote, error in
             DispatchQueue.main.async {
                 if let quote = quote {

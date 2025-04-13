@@ -10,29 +10,39 @@ import UIKit
 
 extension ViewController {
     
+
+    
     func configUI() {
-        configureImageView()
         configureQuoteLabel()
         configureButton()
     }
     
-    private func configureImageView() {
-        //Transform into circle
-        ronImage.layer.cornerRadius = ronImage.frame.width / 2
-        ronImage.clipsToBounds = true
-        // apply border
-        ronImage.layer.borderWidth = 5
-        ronImage.layer.borderColor = UIColor.black.cgColor
-    }
-    
     private func configureQuoteLabel() {
+        let hexCodeBrown = UIColor (
+            red: 53/255.0,
+            green: 43/255.0,
+            blue: 29/255.0,
+            alpha: 1.0
+        )
+        
         quoteLabel.layer.cornerRadius = 10.0
         quoteLabel.clipsToBounds = true
-        quoteLabel.layer.borderWidth = 5
-        quoteLabel.layer.borderColor = UIColor.black.cgColor
+        quoteLabel.layer.borderWidth = 3
+        quoteLabel.layer.borderColor = hexCodeBrown.cgColor
     }
     
     private func configureButton() {
+        let hexCodeBrown = UIColor (
+            red: 53/255.0,
+            green: 43/255.0,
+            blue: 29/255.0,
+            alpha: 1.0
+        )
+        
+        quoteBtn.layer.borderWidth = 3
         quoteBtn.layer.cornerRadius = 10.0
+        quoteBtn.clipsToBounds = true
+        quoteBtn.layer.borderColor = hexCodeBrown.cgColor
+        quoteBtn.titleLabel?.font = UIFont(name: "AmericanTypewriter-Bold", size: 25)
     }
 }
