@@ -16,35 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swanson Says" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fsh-KI-5YV">
-                                <rect key="frame" x="90" y="405" width="213" height="43"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SwansonSays-Logo-3x" translatesAutoresizingMaskIntoConstraints="NO" id="XSn-rf-GQm">
+                                <rect key="frame" x="41.666666666666657" y="326.66666666666669" width="310" height="199.00000000000006"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="A1l-3G-hSN"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="34"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swansonLaunch" translatesAutoresizingMaskIntoConstraints="NO" id="XSn-rf-GQm">
-                                <rect key="frame" x="41" y="198" width="310" height="199"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="199" id="1FT-78-Vkr"/>
+                                    <constraint firstAttribute="height" constant="199" id="cTD-E9-TVD"/>
+                                    <constraint firstAttribute="width" constant="310" id="oTo-VU-jgo"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.83529412749999998" green="0.82352948189999997" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.3686274886" green="0.41176474089999998" blue="0.28627452250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fsh-KI-5YV" secondAttribute="bottom" constant="370" id="87Q-5x-8dh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fsh-KI-5YV" secondAttribute="trailing" constant="90" id="ECu-Fe-zke"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XSn-rf-GQm" secondAttribute="trailing" constant="42" id="EWW-FV-aw2"/>
-                            <constraint firstItem="XSn-rf-GQm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="139" id="H1F-Yp-dMk"/>
-                            <constraint firstItem="fsh-KI-5YV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="JM6-DB-4U6"/>
-                            <constraint firstItem="XSn-rf-GQm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="139" id="RQ9-Gx-Fmj"/>
-                            <constraint firstItem="fsh-KI-5YV" firstAttribute="top" secondItem="XSn-rf-GQm" secondAttribute="bottom" constant="8" id="YSV-wO-NmF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XSn-rf-GQm" secondAttribute="trailing" constant="42" id="eq8-27-N2i"/>
-                            <constraint firstItem="XSn-rf-GQm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="pqZ-PX-Pal"/>
-                            <constraint firstItem="XSn-rf-GQm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="rHT-t1-nEU"/>
+                            <constraint firstItem="XSn-rf-GQm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1ag-2J-KFB"/>
+                            <constraint firstItem="XSn-rf-GQm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="EEC-va-dmN"/>
+                            <constraint firstItem="XSn-rf-GQm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Fat-d7-gdr"/>
+                            <constraint firstItem="XSn-rf-GQm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="OrQ-hE-2Nu"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -54,6 +40,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="swansonLaunch" width="1920" height="1080"/>
+        <image name="SwansonSays-Logo-3x" width="420" height="225"/>
     </resources>
 </document>
